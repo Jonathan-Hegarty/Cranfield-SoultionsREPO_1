@@ -24,7 +24,7 @@ body {
   background-color: rgb(255, 254, 255);
   color: rgb(0, 0, 0);
   margin-bottom: 10px;
-  padding-top: 80px;
+  padding-top: 50px;
   font-size: clamp(1rem, 2.5vw, 40px);
   font-weight: bold;
   padding-bottom: 5px;
