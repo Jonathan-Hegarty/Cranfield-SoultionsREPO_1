@@ -1,29 +1,32 @@
-.logo{
-  margin-top: 0px;
-  padding-top: 0px;
-  padding-left: 0px;
-  margin: 0px;
+.logo {
+  margin: 0;
   width: 200px;
   height: 200px;
-  margin-bottom: 0px;
-  display:inline-block;
-}
-.bar1
-{
-    margin-top: 0px;
-    padding-left: 0px;
-    margin-left: 0px;
-    width: 1900px;
-    height: 5px;   
+  display: inline-block;
+  object-fit: cover;
 }
 
-.slee{
-  margin-top: 10px;
-  padding-top: 10px;
-  padding-left: 10px;
-  margin: 0px;
-  width: 150px;
-  height: 150px;
-  margin-bottom: 0px;
-  float:left;
+.bar1 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 1900px;
+  height: 5px;
+  background-color: #2d5016;
+  border: none;
+}
+
+.founder-photo {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px 6px 0 0;
 }
