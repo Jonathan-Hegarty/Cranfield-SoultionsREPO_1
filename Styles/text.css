@@ -55,3 +55,12 @@
   background: #234012;
   text-decoration: none !important;
 }
+
+.text-link {
+  font-weight: 600;
+  color: #2d5016;
+}
+
+.text-link:hover {
+  color: #234012;
+}
