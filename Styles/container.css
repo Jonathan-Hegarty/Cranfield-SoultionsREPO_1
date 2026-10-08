@@ -1,4 +1,4 @@
-    * {
+* {
   box-sizing: border-box;
 }
 
@@ -24,7 +24,7 @@ body {
   background-color: rgb(255, 254, 255);
   color: rgb(0, 0, 0);
   margin-bottom: 10px;
-  padding-top: 50px;
+  padding-top: 80px;
   font-size: clamp(1rem, 2.5vw, 40px);
   font-weight: bold;
   padding-bottom: 5px;
@@ -74,6 +74,62 @@ a:active {
 
 .founder-row-reverse {
   flex-direction: row-reverse;
+}
+
+.founder-bio {
+  flex: 1;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  align-items: flex-start;
+}
+
+.portfolio-link {
+  font-size: 1rem;
+}
+
+.portfolio-hero-photo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.download-actions {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.cert-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.25rem;
+  background: #fafafa;
+  text-align: center;
+}
+
+.cert-card img {
+  margin: 0 auto 1rem;
+  border-radius: 8px;
+}
+
+.cert-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.cert-card p {
+  margin: 0 0 0.75rem;
+  color: #444;
+  font-size: 0.95rem;
 }
 
 .project-grid {
